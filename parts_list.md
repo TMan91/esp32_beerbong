@@ -19,3 +19,14 @@ https://www.ebay.de/itm/203252815145
 
 Miniatur toggle switch 2 polig
 https://www.ebay.de/itm/193654027318
+
+Stainless Steel Valve:
+
+Ball Valve 1 Inch:
+https://www.rst-versand.de/Edelstahl-Kugelhahn-2-teilig-voller-Durchgang-I-I
+
+fitting 1 Inch:
+https://www.rst-versand.de/Edelstahl-Anschweissnippel
+
+hose clamp 25-40mm:
+https://www.rst-versand.de/Edelstahl-Schlauchschelle-W4-12-mm
