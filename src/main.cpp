@@ -5,9 +5,10 @@
 #define SCREEN_HEIGHT 64
 Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, -1); // Instanziierung
 
-const int analogPin = 34; //Pin für den Analogen Feuchtigkeitssensor
+const int analogPin = 34; //Pin for the anaolog Photoelectric Sensor
+const double threshold = 1000 // Threshold for the Photoelectric Sensor
 
-int currentAnalogValue = 0; //Aktueller Wert des Analogen Photosensors
+int currentAnalogValue = 0; //current value of the analog Photoelectric Sensor
 
 double runtime;           // Zeit seit Boot
 double drinkTime = 0.;      //gesamtzeit des Trinkens
@@ -110,7 +111,7 @@ void stage2()
 void stage3()
 {
   currentAnalogValue = getanalogPin();
-  while(currentAnalogValue < 100 || currentTime < 1)
+  while(currentAnalogValue < threshold || currentTime < 1)
   {
     currentAnalogValue = getanalogPin();
     stage = 3;
